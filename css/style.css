@@ -185,6 +185,15 @@ main .nav-tabs1 .nav-item a:hover{
 .tab-content .tabx1{ 
   padding: 48px 60px; 
 }
+.tab-content .tabx2{ 
+  padding: 24px 60px; 
+}
+.tab-content .tabx3{ 
+  padding: 24px 32px; 
+}
+.tab-content .tabx4{ 
+  padding: 24px 60px; 
+}
 .type-box{
   padding: 88px 16px 16px; 
   height: 481px; 
