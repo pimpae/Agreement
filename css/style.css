@@ -21,7 +21,7 @@ body{
   left: 0;
   top: 0;
   width: 50px; 
-  height: 100%;
+  height: 100vh;
   background: #0E2338;
 }
 .menu .logo{
@@ -41,6 +41,10 @@ body{
   background-color: rgba(255, 255, 255, 0.122206);
   width: calc(100% - 16px);
   position: absolute;
+}
+.menu ul.bot-fix{
+  position: absolute;
+  bottom: 0;
 }
 .menu ul{
   list-style: none;
@@ -90,6 +94,25 @@ body{
   top: 6px;
   background: #00BAC7;
   border-radius: 5px;
+}
+.menu ul li.user div{
+  width: 36px;
+  height: 36px;
+  background: linear-gradient(320.51deg, #FFFFFF -24.89%, #00BAC7 73.5%);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.4px;
+
+  color: #FFFFFF;
+
 }
 main .icon-top{
   position: relative;
