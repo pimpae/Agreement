@@ -599,7 +599,10 @@ main .nav-tabs1 .nav-item a:hover{
   line-height: 18px;
   text-transform: capitalize; 
   color: #6C757D;
-} 
+}   
+.des-box.th label{ 
+  line-height: 19px; 
+}  
 .form-control{
   padding: 3px 8px;
   gap: 8px;  
