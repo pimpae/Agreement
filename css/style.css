@@ -640,6 +640,47 @@ main .nav-tabs1 .nav-item a:hover{
   top: 20px;
   position: absolute;
 }
+.nav-item-code {
+  position: relative; 
+  width: 288px;
+  height: 53px; 
+  background: rgba(0, 186, 199, 0.16);
+  border-radius: 16px 16px 0px 0px; 
+  bottom: -3px;
+  position: relative;
+  padding: 8px 16px;
+} 
+.code-active.nav-tabs1 + .tab-content {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 0px 0px 16px 16px;
+}
+.nav-item-code div{ 
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center; 
+  color: #000000; 
+} 
+.nav-item-code .btn{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center; 
+  color: #FFFFFF;
+  width: 91px;
+  height: 37px; 
+  background: linear-gradient(101.25deg, #0050C8 0.22%, #00BAC7 103.59%); 
+  border: 1px solid #FFFFFF;
+  box-shadow: 8px 8px 16px rgba(0, 80, 200, 0.16);
+  border-radius: 29px;
+  margin-bottom: 30px;
+}
+.nav-item-code span{
+  position: relative;
+  top: -12px;
+  margin-right: 16px;
+}
+
 
 
 /* 
