@@ -88,10 +88,10 @@
 				<a class="nav-link" href="#tab2" role="tab" data-toggle="tab">Name & Address</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link active" href="#tab3" role="tab" data-toggle="tab">Term & Payment</a>
+				<a class="nav-link" href="#tab3" role="tab" data-toggle="tab">Term & Payment</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#tab3" role="tab" data-toggle="tab">Title Deed</a>
+				<a class="nav-link active" href="#tab4" role="tab" data-toggle="tab">Title Deed</a>
 			</li>
 			<li class="nav-item ml-auto nav-item-code">
 				<div><span>Agreement code :</span> <button class="btn">AA1234</button></div>
@@ -550,7 +550,7 @@
 				</div>
 
 			</div>
-			<div role="tabpanel" class="tab-pane tabx3 fade show active" id="tab3">
+			<div role="tabpanel" class="tab-pane tabx3 fade" id="tab3">
 				<div class="row">
 					<div class="col-lg-6">
 						<div class="des-box th">
@@ -637,7 +637,7 @@
 
 
 						</div>
-					</div>
+					</div> 
 					<div class="col-lg-6">
 						<div class="des-box  ">
 							<img src="images/circle-flags_uk.png" class="lang" alt="lang">
@@ -723,11 +723,496 @@
 
 
 						</div>
+					</div> 
+					<div class="col-lg-6">
+						<div class="des-box th">
+							<img src="images/emojione_flag-for-thailand.png" class="lang" alt="lang">
+							<h5>วันที่ และ ระยะเช่า</h5>
+							<div class="form-group row">
+								<div class="col-lg-6">
+									<label>วันที่ทำสัญญา</label>
+									<input type="text" class="form-control date" id="date3" value="20-10-2023">
+									<label for="date3" class="labeldate"><span class="material-symbols-outlined"> date_range </span></label>
+								</div> 
+							</div> 
+							<h5>ราคาซื้อขาย</h5>
+							<div class="form-group row">
+								<div class="col-lg-6">
+									<label>ค่าเช่า (ตัวเลข)</label>
+									<input type="text" class="form-control" placeholder="เช่น 10,000"> 
+								</div>
+								<div class="col-lg-6">
+									<label>ค่าเช่า (ตัวหนังสือ)</label>
+									<input type="text" class="form-control" placeholder="เช่น หนึ่งพัน"> 
+								</div>
+							</div>
+							<h5>ค่ามัดจำ</h5>
+							<div class="form-group row">
+								<div class="col-lg-1">
+									<label>ครั้งที่</label>
+									<div class="order-num">1.</div>
+								</div> 
+								<div class="col-lg-5">
+									<label>วันที่</label>
+									<input type="text" class="form-control date" id="date-order1" value="20-10-2023">
+									<label for="date-order1" class="labeldate"><span class="material-symbols-outlined"> date_range </span></label>
+								</div>
+								<div class="col-lg-4">
+									<label>จำนวน</label>
+									<input type="text" class="form-control" placeholder="0"> 
+								</div>
+								<div class="col-lg-1">
+									<button class="btn btn-del">
+										<span class="material-symbols-outlined">
+										close
+										</span>
+									</button> 
+								</div>  
+							</div>
+							<div class="form-group row">
+								<div class="col-lg-1">
+									<label>ครั้งที่</label>
+									<div class="order-num">2.</div>
+								</div> 
+								<div class="col-lg-5">
+									<label>วันที่</label>
+									<input type="text" class="form-control date" id="date-order2" value="20-10-2023">
+									<label for="date-order2" class="labeldate"><span class="material-symbols-outlined"> date_range </span></label>
+								</div>
+								<div class="col-lg-4">
+									<label>จำนวน</label>
+									<input type="text" class="form-control" placeholder="0"> 
+								</div>
+								<div class="col-lg-1">
+									<button class="btn btn-del">
+										<span class="material-symbols-outlined">
+										close
+										</span>
+									</button> 
+								</div> 
+								<div class="col-lg-1">
+									<button class="btn btn-plus">
+										<span class="material-symbols-outlined">
+										add
+										</span>
+									</button> 
+								</div> 
+							</div>
+							<h5>งวดสุดท้าย</h5>
+							<div class="form-group row">
+								<div class="col-lg-6">
+									<label>งวดสุดท้าย</label>
+									<input type="text" class="form-control"  > 
+								</div>
+								<div class="col-lg-6">
+									<label>เลขที่บัญชี</label>
+									<input type="text" class="form-control date" id="date4" value="20-10-2023">
+									<label for="date4" class="labeldate"><span class="material-symbols-outlined"> date_range </span></label>
+								</div>
+							</div> 
+							<div class="form-group row">
+								<div class="col-lg-12">
+									<label>ค่าปรับผิดสัญา  (Word)</label>
+									<input type="text" class="form-control" placeholder="ค่าปรับผิดสัญา" > 
+								</div> 
+							</div>
+
+							
+							<h5>บัญชีเจ้าของ</h5>
+							<div class="form-group row">
+								<div class="col-lg-12">
+									<label>ธนาคาร</label>
+									<input type="text" class="form-control" placeholder="ธนาคาร" > 
+								</div> 
+							</div>
+							 
+							<div class="form-group row">
+								<div class="col-lg-6">
+									<label>ชื่อบัญชี</label>
+									<input type="text" class="form-control" placeholder="ชื่อบัญชี" > 
+								</div>
+								<div class="col-lg-6">
+									<label>เลขที่บัญชี</label>
+									<input type="text" class="form-control" placeholder="เลขที่บัญชี" > 
+								</div>
+							</div> 
+
+							<hr>
+
+							<h5>บัญชีเจ้าของ</h5>
+							<div class="form-group row">
+								<div class="col-lg-12">
+									<label>Transfer fee</label>  
+									<div class="input-group mb-3">
+										<div class="input-group-prepend">
+										  	<span class="input-group-text"> Paid by :</span>
+										</div> 
+										<input type="text" class="form-control" placeholder="50% by seller and 50% by buyer">
+									</div>
+								</div> 
+								<div class="col-lg-6">
+									<label>Stamp duty</label>  
+									<div class="input-group mb-3">
+										<div class="input-group-prepend">
+										  	<span class="input-group-text"> Paid by :</span>
+										</div> 
+										<input type="text" class="form-control" placeholder="by seller">
+									</div>
+								</div> 
+								<div class="col-lg-6">
+									<label>Specific business tax</label>  
+									<div class="input-group mb-3">
+										<div class="input-group-prepend">
+										  	<span class="input-group-text"> Paid by :</span>
+										</div> 
+										<input type="text" class="form-control" placeholder="by seller">
+									</div>
+								</div> 
+								<div class="col-lg-6">
+									<label>with holding income tax</label>  
+									<div class="input-group mb-3">
+										<div class="input-group-prepend">
+										  	<span class="input-group-text"> Paid by :</span>
+										</div> 
+										<input type="text" class="form-control" placeholder="by seller">
+									</div>
+								</div> 
+								<div class="col-lg-6">
+									<label>Agency commission</label>  
+									<div class="input-group mb-3">
+										<div class="input-group-prepend">
+										  	<span class="input-group-text"> Paid by :</span>
+										</div> 
+										<input type="text" class="form-control" placeholder="by seller">
+									</div>
+								</div> 
+							</div>
+
+
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="des-box">
+							<img src="images/circle-flags_uk.png" class="lang" alt="lang">
+							<h5>Date & Term</h5>
+							<div class="form-group row">
+								<div class="col-lg-6">
+									<label>Date of Agreement made</label>
+									<input type="text" class="form-control date" id="date3" value="20-10-2023">
+									<label for="date3" class="labeldate"><span class="material-symbols-outlined"> date_range </span></label>
+								</div> 
+							</div> 
+							<h5>Selling Price</h5>
+							<div class="form-group row">
+								<div class="col-lg-6">
+									<label>Rent amount </label>
+									<input type="text" class="form-control" placeholder="eg. 10,000"> 
+								</div>
+								<div class="col-lg-6">
+									<label>amount  (Word)</label>
+									<input type="text" class="form-control" placeholder="e.g One Thousand only"> 
+								</div>
+							</div>
+							<h5>Deposit</h5>
+							<div class="form-group row">
+								<div class="col-lg-1">
+									<label>No. </label>
+									<div class="order-num">1.</div>
+								</div> 
+								<div class="col-lg-5">
+									<label>Date</label>
+									<input type="text" class="form-control date" id="date-order1" value="20-10-2023">
+									<label for="date-order1" class="labeldate"><span class="material-symbols-outlined"> date_range </span></label>
+								</div>
+								<div class="col-lg-4">
+									<label>amount</label>
+									<input type="text" class="form-control" placeholder="0"> 
+								</div>
+								<div class="col-lg-1">
+									<button class="btn btn-del">
+										<span class="material-symbols-outlined">
+										close
+										</span>
+									</button> 
+								</div>  
+							</div>
+							<div class="form-group row">
+								<div class="col-lg-1">
+									<label>No. </label>
+									<div class="order-num">2.</div>
+								</div> 
+								<div class="col-lg-5">
+									<label>Date</label>
+									<input type="text" class="form-control date" id="date-order2" value="20-10-2023">
+									<label for="date-order2" class="labeldate"><span class="material-symbols-outlined"> date_range </span></label>
+								</div>
+								<div class="col-lg-4">
+									<label>amount</label>
+									<input type="text" class="form-control" placeholder="0"> 
+								</div>
+								<div class="col-lg-1">
+									<button class="btn btn-del">
+										<span class="material-symbols-outlined">
+										close
+										</span>
+									</button> 
+								</div> 
+								<div class="col-lg-1">
+									<button class="btn btn-plus">
+										<span class="material-symbols-outlined">
+										add
+										</span>
+									</button> 
+								</div> 
+							</div>
+							<h5>งวดสุดท้าย</h5>
+							<div class="form-group row">
+								<div class="col-lg-6">
+									<label>งวดสุดท้าย</label>
+									<input type="text" class="form-control"  > 
+								</div>
+								<div class="col-lg-6">
+									<label>เลขที่บัญชี</label>
+									<input type="text" class="form-control date" id="date4" value="20-10-2023">
+									<label for="date4" class="labeldate"><span class="material-symbols-outlined"> date_range </span></label>
+								</div>
+							</div> 
+							<div class="form-group row">
+								<div class="col-lg-12">
+									<label>ค่าปรับผิดสัญา  (Word)</label>
+									<input type="text" class="form-control"   > 
+								</div> 
+							</div>
+
+							
+							<h5>Seller’s Bank Details</h5>
+							<div class="form-group row">
+								<div class="col-lg-12">
+									<label>Bank Name</label>
+									<input type="text" class="form-control" placeholder="Bank Name" > 
+								</div> 
+							</div>
+							 
+							<div class="form-group row">
+								<div class="col-lg-6">
+									<label>Account Name</label>
+									<input type="text" class="form-control" placeholder="Account Name" > 
+								</div>
+								<div class="col-lg-6">
+									<label>Account No.</label>
+									<input type="text" class="form-control" placeholder="Account No." > 
+								</div>
+							</div> 
+
+							<hr>
+
+							<h5>บัญชีเจ้าของ</h5>
+							<div class="form-group row">
+								<div class="col-lg-12">
+									<label>Transfer fee</label>  
+									<div class="input-group mb-3">
+										<div class="input-group-prepend">
+										  	<span class="input-group-text"> Paid by :</span>
+										</div> 
+										<input type="text" class="form-control" placeholder="50% by seller and 50% by buyer">
+									</div>
+								</div> 
+								<div class="col-lg-6">
+									<label>Stamp duty</label>  
+									<div class="input-group mb-3">
+										<div class="input-group-prepend">
+										  	<span class="input-group-text"> Paid by :</span>
+										</div> 
+										<input type="text" class="form-control" placeholder="by seller">
+									</div>
+								</div> 
+								<div class="col-lg-6">
+									<label>Specific business tax</label>  
+									<div class="input-group mb-3">
+										<div class="input-group-prepend">
+										  	<span class="input-group-text"> Paid by :</span>
+										</div> 
+										<input type="text" class="form-control" placeholder="by seller">
+									</div>
+								</div> 
+								<div class="col-lg-6">
+									<label>with holding income tax</label>  
+									<div class="input-group mb-3">
+										<div class="input-group-prepend">
+										  	<span class="input-group-text"> Paid by :</span>
+										</div> 
+										<input type="text" class="form-control" placeholder="by seller">
+									</div>
+								</div> 
+								<div class="col-lg-6">
+									<label>Agency commission</label>  
+									<div class="input-group mb-3">
+										<div class="input-group-prepend">
+										  	<span class="input-group-text"> Paid by :</span>
+										</div> 
+										<input type="text" class="form-control" placeholder="by seller">
+									</div>
+								</div> 
+							</div>
+
+
+						</div>
 					</div>
 				</div>
 			</div>
-			<div role="tabpanel" class="tab-pane tabx4 fade" id="tab4">
-				
+			<div role="tabpanel" class="tab-pane tabx4 fade show active" id="tab4">
+				<div class="enter-property"> 
+					<div class="row">
+						<div class="col-2 text-center">
+							<br>
+							<h5>Property code :</h5>
+						</div>
+						<div class="col-1 text-center pt-3">
+							<button class="btn">AA1234</button>
+						</div>
+						<div class="col-1 pl-0 pr-0 ">
+							<h5 class="text-right">Property Address :</h5>
+							<h6 class="text-right">ที่อยู่ :</h6>
+						</div>
+						<div class="col-7">
+							<h5>43/5 Sukhumvit 63,  Khlong Toei Nuea, Watthana, Bangkok,</h5>
+							<h6>(43/5 สุขุมวิท 63,  คลองตัน คลองเตย กรุงเทพ)</h6>
+						</div>
+					</div>
+				</div>
+
+				<br>
+
+				<div class="row"> 
+					<div class="col-lg-6">
+						<div class="des-box th">
+							<img src="images/emojione_flag-for-thailand.png" class="lang" alt="lang"> 
+
+							<h4>รายละเอียด :</h4> 
+							<div class="form-group row">
+								<div class="col-lg-12">
+									<label>Total Size</label>
+									<input type="text" class="form-control"> 
+								</div>
+								<div class="col-lg-6">
+									<label>Parking Lots</label>
+									<input type="text" class="form-control"> 
+								</div>
+								<div class="col-lg-6">
+									<label>No.</label>
+									<input type="text" class="form-control"> 
+								</div>
+							</div>
+							<h5>รายละเอียดโฉนด</h5> 
+							<div class="form-group row"> 
+								<div class="col-lg-6">
+									<label>โฉนดเลขที่</label>
+									<input type="text" class="form-control"> 
+								</div>
+								<div class="col-lg-6">
+									<label>เลขที่ดิน</label>
+									<input type="text" class="form-control"> 
+								</div>
+							</div>
+							<div class="form-group row"> 
+								<div class="col-lg-6">
+									<label>หน้าสำรวจ</label>
+									<input type="text" class="form-control"> 
+								</div>
+								<div class="col-lg-3">
+									<label>เล่ม</label>
+									<input type="text" class="form-control"> 
+								</div>
+								<div class="col-lg-3">
+									<label>หน้า</label>
+									<input type="text" class="form-control"> 
+								</div>
+							</div>
+							<div class="form-group row"> 
+								<div class="col-lg-4">
+									<label>เขวง</label>
+									<input type="text" class="form-control"> 
+								</div>
+								<div class="col-lg-4">
+									<label>เขต</label>
+									<input type="text" class="form-control"> 
+								</div>
+								<div class="col-lg-4">
+									<label>จังหวัด</label>
+									<input type="text" class="form-control"> 
+								</div>
+							</div>
+
+
+
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="des-box">
+							<img src="images/circle-flags_uk.png" class="lang" alt="lang"> 
+
+							<h4>Property Details : :</h4> 
+							<div class="form-group row">
+								<div class="col-lg-12">
+									<label>Total Size</label>
+									<input type="text" class="form-control"> 
+								</div>
+								<div class="col-lg-6">
+									<label>Parking Lots</label>
+									<input type="text" class="form-control"> 
+								</div>
+								<div class="col-lg-6">
+									<label>No.</label>
+									<input type="text" class="form-control"> 
+								</div>
+							</div>
+							<h5>Title Deed Details</h5> 
+							<div class="form-group row"> 
+								<div class="col-lg-6">
+									<label>Title Deed No.</label>
+									<input type="text" class="form-control"> 
+								</div>
+								<div class="col-lg-6">
+									<label>Land No.</label>
+									<input type="text" class="form-control"> 
+								</div>
+							</div>
+							<div class="form-group row"> 
+								<div class="col-lg-6">
+									<label>Survey No.</label>
+									<input type="text" class="form-control"> 
+								</div>
+								<div class="col-lg-3">
+									<label>Book</label>
+									<input type="text" class="form-control"> 
+								</div>
+								<div class="col-lg-3">
+									<label>Page</label>
+									<input type="text" class="form-control"> 
+								</div>
+							</div>
+							<div class="form-group row"> 
+								<div class="col-lg-4">
+									<label>Subdistrict</label>
+									<input type="text" class="form-control"> 
+								</div>
+								<div class="col-lg-4">
+									<label>district</label>
+									<input type="text" class="form-control"> 
+								</div>
+								<div class="col-lg-4">
+									<label>province</label>
+									<input type="text" class="form-control"> 
+								</div>
+							</div>
+
+
+
+						</div>
+					</div>
+				</div>
+ 
+
 			</div>
 		</div>
 

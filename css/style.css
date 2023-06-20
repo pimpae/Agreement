@@ -6,6 +6,7 @@
   --bg-info2: #00ADD2; 
   --bg-primary: #0050C8; 
   --bg-danger: #DF5A21;  
+  --bg-grey: var(--bg-grey);
 }
 a:hover{
   text-decoration: none;
@@ -162,7 +163,7 @@ main .nav-tabs1 .nav-item a{
   font-weight: 500;
   font-size: 18px;
   line-height: 22px; 
-  color: #6C757D;
+  color: var(--bg-grey);
   border: 0px;
   border-bottom: 2px solid transparent;
 }
@@ -246,7 +247,7 @@ main .nav-tabs1 .nav-item a:hover{
   font-weight: 500;
   font-size: 18px;
   line-height: 23px; 
-  color: #6C757D;
+  color: var(--bg-grey);
 }
 .type-box .radio-bod.active{ 
   border: 1px solid var(--bg-info); 
@@ -313,7 +314,7 @@ main .nav-tabs1 .nav-item a:hover{
   font-size: 16px;
   line-height: 21px;  
   letter-spacing: 0.5px; 
-  color: #6C757D; 
+  color: var(--bg-grey); 
 }
 .enter-property .btn{
   font-weight: 600;
@@ -399,7 +400,7 @@ main .nav-tabs1 .nav-item a:hover{
   font-weight: 400;
   font-size: 16px;
   line-height: 19px; 
-  color: #6C757D;
+  color: var(--bg-grey);
   margin-bottom: 12px;
 }
 .owner-details h6 span{
@@ -478,7 +479,7 @@ main .nav-tabs1 .nav-item a:hover{
   border-radius: 4px;
 } 
 .inner-name::-webkit-scrollbar-thumb:hover {
-  background: #6C757D; 
+  background: var(--bg-grey); 
 } 
 .box-name{
   padding: 16px;
@@ -495,7 +496,7 @@ main .nav-tabs1 .nav-item a:hover{
   font-weight: 400;
   font-size: 16px;
   line-height: 19px; 
-  color: #6C757D;
+  color: var(--bg-grey);
   margin-top: 10px;
 }
 .box-name h5{
@@ -576,13 +577,21 @@ main .nav-tabs1 .nav-item a:hover{
   box-shadow: none;
 }
 .des-box{
-  padding: 24px 32px; 
+  padding: 24px 32px 24px; 
   border: 1px solid #E4E4E4;
   border-radius: 8px;
   position: relative;
+  margin-bottom: 24px;
 }
 .des-box.th{ 
   font-family: 'Sarabun', sans-serif;
+}
+.des-box h4{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px; 
+  color: #015FC8; 
+  margin-bottom: 20px;
 }
 .des-box h5{
   font-style: normal;
@@ -598,7 +607,7 @@ main .nav-tabs1 .nav-item a:hover{
   font-size: 14px;
   line-height: 18px;
   text-transform: capitalize; 
-  color: #6C757D;
+  color: var(--bg-grey);
 }   
 .des-box.th label{ 
   line-height: 19px; 
@@ -613,7 +622,8 @@ main .nav-tabs1 .nav-item a:hover{
   font-weight: 400;
   font-size: 16px;
   line-height: 21px; 
-  color: #6C757D; 
+  color: var(--bg-grey); 
+  margin-bottom: 15px;
 }
 .form-control.date + .labeldate{
   position: absolute;
@@ -679,6 +689,60 @@ main .nav-tabs1 .nav-item a:hover{
   position: relative;
   top: -12px;
   margin-right: 16px;
+}
+.order-num{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 8px; 
+  width: 38px;
+  height: 38px;  
+  background: #F4F4F4;
+  border-radius: 38px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize; 
+  color: #000000;
+}
+.btn.btn-del{  
+  width: 38px;
+  height: 38px; 
+  background: #F4F4F4;
+  border: 1px solid rgba(108, 117, 125, 0.12);
+  box-shadow: 5px 4px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--bg-grey);
+  margin-top: 28px
+}
+.btn.btn-plus{  
+  width: 38px;
+  height: 38px; 
+  background: var(--bg-info);
+  border: 1px solid rgba(108, 117, 125, 0.12);
+  box-shadow: 5px 4px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 28px
+}
+.input-group-prepend{
+  height: 38px; 
+  background: rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(108, 117, 125, 0.12);
+  border-radius: 6px 0px 0px 6px; 
 }
 
 
